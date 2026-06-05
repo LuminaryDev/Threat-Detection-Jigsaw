@@ -1,4 +1,34 @@
+---
+language:
+- en
+license: mit
+tags:
+- text-classification
+- roberta
+- threat-detection
+- toxicity
+- jigsaw
+- multi-label
+datasets:
+- google/jigsaw_toxicity_pred
+metrics:
+- f1
+model-index:
+- name: Pommu/threat-detection-jigsaw
+  results:
+  - task:
+      type: text-classification
+    dataset:
+      name: Jigsaw Toxic Comment Classification
+      type: google/jigsaw_toxicity_pred
+    metrics:
+    - type: f1
+      value: 0.79
+      name: Weighted F1
+---
+
 # 🛡️ Context-Aware Threat & Compliance Detection in Conversational Text
+
 
 **NLP Course Project — Individual Assignment**  
 **Model**: Fine-tuned `roberta-base` | **Task**: 6-class Multi-label Classification  
