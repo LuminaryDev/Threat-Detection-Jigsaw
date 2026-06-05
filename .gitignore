@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment secrets — DO NOT COMMIT
+.env
+
+# HuggingFace cache and temp uploads
+hf_upload_folder/
+*.bin
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
