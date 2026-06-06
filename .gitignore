@@ -5,7 +5,6 @@ __pycache__/
 *.pyo
 
 # Environment secrets — DO NOT COMMIT
-.env
 
 # HuggingFace cache and temp uploads
 hf_upload_folder/
@@ -17,3 +16,5 @@ hf_upload_folder/
 # OS files
 .DS_Store
 Thumbs.db
+config.bat
+node_modules
